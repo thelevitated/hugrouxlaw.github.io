@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-size: 16px;
+	background: url(images/IMG_2474_web.jpg) repeat center fixed;
+/*	background: url(images/farewellblackfield.jpg) repeat center fixed;*/
+	background-size: 100%;
+	position: relative;
+	overflow: auto;
+}
+nav a{
+	text-decoration: none;
+	font-family: 'Andale Mono';
+	font-size: 1em;
+	color: white;
+	padding-top: 40px;
+	letter-spacing: 46px;
+	text-align: center;
+}
+nav a:hover{
+	color: black;
+}
+h1{
+	font-family: 'Andale Mono';
+	font-size: 0.75em;
+	color: white;
+	text-align: right;
+	padding-top: 100px;
+	padding-right: 219px;
+	letter-spacing: 4.1px;
+	top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+/*    height: 0px;*/
+/*    text-align: center;*/
+    position: fixed;
+}
+img{
+	width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: solid black 1px
+}
+p{ 
+    z-index: 9999;
+    font-family: 'Andale Mono';
+    font-size: 0.80em;
+    padding: 26px;
+    letter-spacing: 12px;
+    text-align: center;
+    color: #EEFF99;
+}
+h2{
+	font-family: 'Andale Mono';
+	font-size: 0.50em;
+}
+.box a{
+	text-decoration: none;
+	font-size: 3.3em;
+	color: rgba(0,0,0,0.58);
+}
+.box a:hover{
+/*	background-image: url(images/pia.jpg);*/
+	color: white;
+
+}
+.fixed-nav-bar{
+	padding: 40px;
+/*	width: auto;
+	margin: auto;
+	height: 100px;
+	text-align: center;*/
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 0px;
+    text-align: center;
+    position: fixed;
+}
+.wrap{
+/*	height: 180px;*/
+	width: 85%;
+	margin: 50px auto;
+	padding-top: 100px;
+	background-color: rgba(0,0,0,0);
+
+}
+.box{
+	height:100px;
+	width: 100px;
+	margin: 3%;
+	background-color: rgba(2,2,2,0.33);
+/*	background-image: url(images/IMG_2478_web.jpg);*/
+	float: left;
+	padding: 37px;
+	border-radius: 5px;
+	}
+.imagebox{
+	height:100px;
+	width: 100px;
+	margin: 3%;
+	float: left;
+	border-radius: 5px;
+}	
+.appear{
+    width: 60%;
+    margin: 155px auto;
+    background-color: rgba(2,2,2,0.33);
+/*    background-image: url(images/IMG_2474_web.jpg) ;*/
+    border-radius: 5px;
+}
+.imageappear{
+	width: 60%;
+    margin: 155px auto;
+    background-color: rgba(2,2,2,0.33);
+    border-radius: 5px;
+/*    border: white solid 10px;*/
+
+}
+#backgroundimage{
+	width: 100%;
+}
+#backbutton{
+	width: 100px;
+	font-size: 2em;
+	font-family: 'Andale Mono';
+	margin: auto;
+	color: black;
+}
+#backbutton a{
+	text-decoration: none;
+	font-size: 3.3em;
+	color: rgba(0,0,0,0.58);
+}
+
+#backbutton a:hover{
+	color: white;
+
+}
+@media only screen and (max-width: 640px) {
+	h1{ text-align: center;
+		padding-right: 0px;}
+}
+
+}
